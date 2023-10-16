@@ -116,6 +116,7 @@ namespace AuthProject.Controllers
             var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
             HttpContext.Session.SetString("JWTToken", tokenString);
 
+            //return Ok(tokenString);
             return RedirectToAction("", "Home");
 
          }
