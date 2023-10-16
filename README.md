@@ -2,7 +2,7 @@
 
 This project is an ASP.NET Core application that demonstrates user registration, login, and basic authentication using JSON Web Tokens (JWT). It includes features such as user registration, password hashing using BCrypt, login functionality, and a simple Home page that Displays First name of the user.
 
-# Features
+## Features
 
 - User registration.
 - Storing password hash and salt using BCrypt Library.
