@@ -34,5 +34,7 @@ Home Page (if not logged in)
 ![image](https://github.com/divyanshrampal28/login_project/assets/145643067/dac959a3-e72b-4fe7-b92d-f4d073872d38)
 
 
+## JWT Generated Token
 
+![image](https://github.com/divyanshrampal28/login_project/assets/145643067/3b39240f-87ef-4c30-b41d-3cab0851dc03)
 
