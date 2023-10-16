@@ -25,9 +25,14 @@ Login Page
 
 ![image](https://github.com/divyanshrampal28/login_project/assets/145643067/5349ce87-27ea-4504-a72c-5a5db094861b)
 
-Home Page
+Home Page (when logged in)
 
 ![image](https://github.com/divyanshrampal28/login_project/assets/145643067/88d75042-fc4a-4060-a76f-ab6774eacc78)
+
+Home Page (if not logged in)
+
+![image](https://github.com/divyanshrampal28/login_project/assets/145643067/dac959a3-e72b-4fe7-b92d-f4d073872d38)
+
 
 
 
