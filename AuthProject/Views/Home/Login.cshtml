@@ -1,0 +1,33 @@
+﻿@model AuthProject.Models.UserTable
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+
+    #login_form {
+        font-size: 22px;
+        border: 5px solid black;
+        width: 60%;
+        padding: 5%;
+        margin: auto;
+    }
+</style>
+<center><h1>Login</h1></center>
+<div id="login_form">
+    <form method="post" asp-action="Login">
+        <div class="mb-3" style="margin-bottom:2%">
+            <label for="exampleInputEmail1" class="form-label" asp-for="Email">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address" asp-for="Email">
+        </div>
+        <div class="mb-3" style="margin-bottom:2%">
+            <label for="exampleInputPassword1" class="form-label" asp-for="Password">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="enter your password" asp-for="Password">
+        </div>
+        <div class="mb-3" style="margin-bottom:2%; font-size:16px">
+            <p>Are you a new user ? <a asp-area="" asp-controller="Home" asp-action="Register">Register</a></p>
+        </div>
+        <button type="submit" class="btn btn-primary center-block" style="font-size:large">Submit</button>
+    </form>
+</div>

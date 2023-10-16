@@ -1,0 +1,35 @@
+﻿@model AuthProject.Models.UserTable
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-12 col-lg-4">
+            <h1 class="mb-3">Register</h1>
+            <form method="post" asp-action="Register">
+                <div asp-validation-summary="All" class="text-danger"> </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="FName">First name</label> <input type="text" class="form-control" asp-for="FName" />
+                    <label class="form-label" asp-for="LName">Last name</label> <input type="text" class="form-control" asp-for="LName" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Email">Email Address</label> <input type="text" class="form-control" asp-for="Email" />
+
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Password">Password</label> <input type="text" class="form-control" asp-for="Password" />
+                </div>
+
+                <div class="mb-3 mt-3" style="margin-bottom:2%; font-size:16px">
+                    <p>Are you an existing user ? <a asp-area="" asp-controller="Home" asp-action="Login">Login</a></p>
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

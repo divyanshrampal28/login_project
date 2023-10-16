@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@if (@ViewBag.FName == null)
+{
+    <h1>User Not Authorised</h1>
+
+}
+else
+{
+    <h1>Welcome, @ViewBag.FName</h1>
+
+}
+
